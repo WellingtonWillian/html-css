@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Teste a espansividade desta página</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="IMAGENS/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="IMAGENS/foto-m.png" type="image/png">
+        <img src="IMAGENS/foto-g.png" alt="imagem flexivel">
+    </picture>
+</body>
+</html>
