@@ -1,0 +1,25 @@
+body{
+    background-image: url('imagens/wallpaper004.jpg');
+}
+
+div.quadrado{
+    margin: auto;
+    border: 2px solid black ;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+div#q1{
+    background-image:url('imagens/pattern003.png') ;
+}
+
+div#q2{
+    background-image:url('imagens/wallpaper002.jpg') ;
+}
+
+div#q3{
+    background-image:url('imagens/wallpaper001.jpg') ;
+}
