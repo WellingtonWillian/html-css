@@ -1,0 +1,13 @@
+body{
+    background-image: url(imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+main{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
